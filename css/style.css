@@ -1,10 +1,8 @@
-@import "compass/css3";
-
 * {
    font-family:  Verdana;
 }
 
-.head {
+.heading {
   text-align: center;
   position:relative;
   height: 55px;
@@ -23,7 +21,7 @@
 }
   
 
-.head:hover {
+.heading:hover {
   width: 100%;
   text-align: center;
    -webkit-transition: width 2s; 
@@ -52,9 +50,9 @@ header:hover {
   transition: width 2s;
 }
 
-.fa fa-heart {
+/* .heart {
   font-size:50px;
-}
+} */
 
 .navtitle {
   float: left;
@@ -126,10 +124,10 @@ header:hover {
 
 .second{
   float: right;
-  width: 23%;
-  height: 300px;
+  width: 47%;
+  height: 600px;
   display:block;
-  margin: 40px 10px 20px;
+  margin: 40px 10px 20px 10px;
   background-color:  #fce6ff;
   border: dotted;
   border-radius: 25px;
