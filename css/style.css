@@ -8,6 +8,7 @@
   height: 55px;
   width: 50%;
   background-color: #ffe6e3;
+  color: #333;
   border-radius: 25px;
   -webkit-transition: width 2s; 
   transition: width 2s;
@@ -43,11 +44,16 @@ header {
   justify-content: space-around;
 }
 
+.link{
+  color: #333;
+}
+
 header:hover {
   width: 100%;
   text-align: center;
   -webkit-transition: width 2s; 
   transition: width 2s;
+  
 }
 
 /* .heart {
@@ -80,7 +86,7 @@ header:hover {
 }
 
 .navigation li a:hover {
-  background-color: black;
+  background-color: #333;
   color: #E0E0E0;
   text-decoration: none;
 }
@@ -99,7 +105,8 @@ header:hover {
 }
 
 .intro {
-  background-color:  #e6ffff;
+  background-color: #e6ffff;
+  color: #333;
   border: dotted;
   float: left;
   width:47%;
@@ -114,6 +121,10 @@ header:hover {
     infinite;
 }
 
+.text{
+  color: #444;
+}
+
 @-webkit-keyframes intro {
     0%   {background-color:#e6ffff;}
     25%  {background-color:#ccffff;}
@@ -123,6 +134,7 @@ header:hover {
 }
 
 .second{
+  color: #333;
   float: right;
   width: 47%;
   height: 600px;
@@ -147,6 +159,7 @@ header:hover {
 }
 
 .foot {
+  color: #333;
   background-color: #99ffcc;
 /*   border-radius: 25px; */
   position: relative;
