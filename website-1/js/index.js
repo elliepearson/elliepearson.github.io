@@ -77,3 +77,33 @@ function drawHand(ctx, pos, length, width) {
     ctx.stroke();
     ctx.rotate(-pos);
 }
+// creating moving pugs
+$(function() {
+    var img = $("#pug"),
+        width = img.get(0).width,
+        screenWidth = $(window).width(),
+        duration = 7000;
+
+    function animatePug() {
+        img.css("left", -width).animate({
+            "left": screenWidth
+        }, duration, animatePug);
+    }
+
+    animatePug();
+});
+
+$(function() {
+    var img = $("#nyan"),
+        width = img.get(0).width,
+        screenWidth = $(window).width(),
+        duration = 7000;
+
+    function animateNyan() {
+        img.css("right", -width).animate({
+            "right": screenWidth
+        }, duration, animateNyan);
+    }
+
+    animateNyan();
+});
