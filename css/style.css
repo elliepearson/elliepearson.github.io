@@ -125,6 +125,10 @@ header:hover {
   color: #444;
 }
 
+body{
+  background-color: #fffdfd;
+}
+
 @-webkit-keyframes intro {
     0%   {background-color:#e6ffff;}
     25%  {background-color:#ccffff;}
@@ -158,12 +162,27 @@ header:hover {
     100% {background-color:#fce6ff;}
 }
 
-.foot {
+/* .foot {
   color: #333;
   background-color: #99ffcc;
 /*   border-radius: 25px; */
-  position: relative;
+
+/* } */ 
+#pug { 
+  position: absolute; 
+  left: 1000px; 
+  length: 120px;
+  width: 120px;
 }
+
+#nyan { 
+  position: absolute; 
+  right: 1000px; 
+  length: 120px;
+  width: 120px;
+}
+
+
 
 
 
