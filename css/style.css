@@ -56,10 +56,6 @@ header:hover {
   
 }
 
-/* .heart {
-  font-size:50px;
-} */
-
 .navtitle {
   float: left;
   padding: 0.7em 0.5em;
@@ -104,13 +100,13 @@ header:hover {
   justify-content: space-around;
 }
 
-.intro {
-  background-color: #e6ffff;
-  color: #333;
-  border: dotted;
-  float: left;
-  width:47%;
-  height: 600px;
+.background{
+  background-color: 
+  #ddd0f0;
+  border-radius: 12px;
+}
+
+/*
   display:block;
   margin: 40px 10px 20px 10px;
   border-radius: 25px; 
@@ -121,14 +117,6 @@ header:hover {
     infinite;
 }
 
-.text{
-  color: #444;
-}
-
-body{
-  background-color: #fffdfd;
-}
-
 @-webkit-keyframes intro {
     0%   {background-color:#e6ffff;}
     25%  {background-color:#ccffff;}
@@ -136,14 +124,29 @@ body{
     75%  {background-color:#ccffff;}
     100% {background-color:#e6ffff;}
 }
+ */
 
-.second{
+body{
+  background-color: #fdfdfd;
+}
+
+.text{
+  color: #444;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+
+
+/* .second{
   color: #333;
   float: right;
   width: 47%;
   height: 600px;
   display:block;
-  margin: 40px 10px 20px 10px;
   background-color:  #fce6ff;
   border: dotted;
   border-radius: 25px;
@@ -160,14 +163,11 @@ body{
     50%  {background-color:#fce6ff; }
     75%  {background-color:#f9ccff;}
     100% {background-color:#fce6ff;}
-}
+} */
 
-/* .foot {
-  color: #333;
-  background-color: #99ffcc;
-/*   border-radius: 25px; */
 
-/* } */ 
+.clock{ margin: auto;}
+
 #pug { 
   position: absolute; 
   left: 1000px; 
